@@ -8,7 +8,7 @@ namespace ConsoleApp_ATM
 {
     class Program
     {
-//commento V.1
+
         int tentativi = 0;
         int limite_Tentativi = 3;
         string id_Utente_Corretto = "123";
@@ -51,7 +51,7 @@ namespace ConsoleApp_ATM
             }
         }
         void Atm_Menu()
-        {Console.WriteLine("funziona?");
+        {
             Console.WriteLine("Benvenuto nel menu");
             Console.WriteLine("inserisci 1 : per aggiungere fondi");
             Console.WriteLine("inserisci 2 : per prelevare fondi");
